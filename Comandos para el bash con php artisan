@@ -1,0 +1,26 @@
+Comandos para el bash con php artisan
+
+***** CREAR SISTEMA DE AUTENTIFICACION:
+	
+	php artisan make:auth
+
+***** CREAR MIGRACION CON MODELO Y CONTROLADOR:
+	
+	php artisan make:model Task -m -c -r
+
+	Task: nombre del modelo
+	-m: Crea la migracion
+	-c: Crea el controlador
+	-r: hace que el controlador creado contenga por defecto las funciones para la api rest
+
+***** LISTAR TODAS LAS RUTAS DISPONIBLES:
+	
+	php artisan route:list
+
+
+
+dd($objeto): Lista el contenido de un objeto y muere el codigo.
+
+***** LLENAR BASE DE DATOS CON DATOS FALSOS:
+	
+	php artisan db:seed
